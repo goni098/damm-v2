@@ -7,7 +7,7 @@ use anchor_lang::{
     prelude::InterfaceAccount,
     solana_program::program::{invoke, invoke_signed},
 };
-use anchor_spl::associated_token::get_associated_token_address_with_program_id;
+use spl_associated_token_account_interface::address::get_associated_token_address_with_program_id;
 use anchor_spl::token::accessor;
 use anchor_spl::{
     token::Token,

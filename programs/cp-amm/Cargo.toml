@@ -23,7 +23,8 @@ anchor-debug = []
 
 [dependencies]
 anchor-lang = { workspace = true, features = ["event-cpi"] }
-anchor-spl = { workspace = true, features = [] }
+anchor-spl = { workspace = true }
+spl-associated-token-account-interface = { workspace = true }
 bytemuck = { workspace = true, features = ["derive", "min_const_generics"] }
 static_assertions = { workspace = true }
 ruint = { workspace = true }

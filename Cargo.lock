@@ -387,7 +387,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0b8005eef3a48a9a8cb21b126ae3bb252647e353afe6ef7f19e545177801c841"
 dependencies = [
  "anchor-lang 1.0.2",
- "spl-associated-token-account-interface",
  "spl-pod",
  "spl-token-2022-interface",
  "spl-token-group-interface",
@@ -918,6 +917,7 @@ dependencies = [
  "protocol-zap",
  "ruint",
  "solana-instruction 3.3.0",
+ "spl-associated-token-account-interface",
  "spl-token-metadata-interface",
  "static_assertions",
 ]

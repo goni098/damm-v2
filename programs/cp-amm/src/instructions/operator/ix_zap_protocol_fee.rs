@@ -8,7 +8,7 @@ use crate::{
 };
 use anchor_lang::prelude::*;
 use anchor_lang::solana_program::sysvar::SysvarId;
-use anchor_spl::associated_token::get_associated_token_address_with_program_id;
+use spl_associated_token_account_interface::address::get_associated_token_address_with_program_id;
 use anchor_spl::token_interface::{Mint, TokenAccount, TokenInterface};
 use protocol_zap::constants::MINTS_DISALLOWED_TO_ZAP_OUT;
 use protocol_zap::utils::validate_zap_out_to_treasury;
